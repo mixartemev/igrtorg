@@ -1,9 +1,13 @@
 <?php
 return [
-    'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
-    'components' => [
-        'cache' => [
-            'class' => 'yii\caching\FileCache',
-        ],
-    ],
+	'vendorpath' => dirname(dirname(__dir__)) . '/vendor',
+	'components' => [
+		'cache' => [
+			'class' => 'yii\caching\Filecache',
+		],
+		'urlmanager' => [
+			'enableprettyurl' => true,
+			'showscriptname' => false,
+		],
+	],
 ];
