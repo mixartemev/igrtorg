@@ -15,6 +15,9 @@ return [
 		'main' => [
 			'class' => 'app\modules\main\Module',
 		],
+		'gridview' => [
+			'class' => '\kartik\grid\Module',
+		],
 	],
 	'components' => [
 		'user' => [
